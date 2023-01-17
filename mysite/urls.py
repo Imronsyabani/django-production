@@ -20,7 +20,7 @@ import contact,about,login,course,admin_user
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index),
-    path('admin/',include('admin_user.urls')),
+    # path('admin/',include('admin_user.urls')),
     path('contact/',include('contact.urls')),
     path('about/',include('about.urls')),
     path('login/',include('login.urls')),
