@@ -133,3 +133,6 @@ MEDIA_ROOT = '/home/imronsyabani/mysite/media'
 MEDIA_URL = '/media/'
 STATIC_ROOT = '/home/imronsyabani/mysite/static'
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
